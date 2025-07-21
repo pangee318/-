@@ -1,0 +1,97 @@
+body {
+  font-family: 'EB Garamond', serif;
+  background-color: #f8f1e4;
+  color: #333;
+  margin: 0;
+}
+
+header {
+  background-color: #3e3e3e;
+  color: #fff;
+  padding: 1rem;
+}
+
+header .student-id {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 2em; 
+  font-weight: bold;
+  color: #f0f8ff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  max-width: 1200px;
+  margin: 2rem auto;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.content {
+  flex: 3;
+}
+
+.content h2 {
+  font-size: 1.8rem;
+  margin-top: 0;
+}
+
+main {
+  display: flex;
+  gap: 20px; 
+}
+
+.discography {
+  flex: 1; 
+}
+
+.sidebar {
+　width: 250px;
+  background-color: #eee;
+  padding: 1rem;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ddd;
+  margin-top: 2rem;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
